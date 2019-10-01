@@ -76,12 +76,14 @@ h1, h2, h3, h4, h5 {
 	height: 40px;
 	width: 100%;
 	padding: 0 20px;
-	background: lightblue;
 	height: 80px;
+	padding-top: 20px;
 }
 
-a {
+header div nav a {
 	text-decoration: none;
+	padding: 50px;
+	color: gray;
 }
 
 #nav {
@@ -92,14 +94,48 @@ a {
 
 .logo	{
 	display: inline-block;
-	margin: 10px;
 	width: 18%;
 }
 /* space for fixed nav bar */
 #top{
-	margin-top: 100px;
+	margin: 110px 5% 20px 5%;
+	padding-bottom: 40px;
+	border-bottom: 2px solid black;
 }
 
 .twoColumn {
-	display: inline-block
+	display: inline-block;
+	width: 49%;
+	border: 1px solid black;
+	height: 30%;
+	/* padding-bottom: 40px; */
+}
+
+.topColumn {
+	text-align: center;
+}
+
+#rightTopImg {
+	height: 10%;
+}
+
+main, footer {
+	margin: 30px 10%
+}
+.middle-img {
+	width: 100%
+}
+
+#middle-img {
+	margin: 40px 0;
+}
+
+.threeColumn {
+	display: inline-block;
+	width: 33%;
+}
+
+#threeColumn {
+	padding-bottom: 40px;
+	border-bottom: 2px solid black;
 }
