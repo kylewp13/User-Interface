@@ -99,15 +99,17 @@ header div nav a {
 #top{
 	margin: 110px 0 20px 0;
 	padding-bottom: 40px;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
+	position: relative;
 }
 
 .topColumn h1 {
-	font-size: 5rem;
+	font-size: 5em;
 }
 
 .button {
-	border: 2px solid	black;
+	display: block;
+	border: 1px solid	black;
 	width: 150px;
 	padding: 10px;
 	margin: 0 auto;
@@ -115,13 +117,19 @@ header div nav a {
 
 .twoColumn {
 	display: inline-block;
-	width: 49%;
-	border: 1px solid black;
+	width: 49.5%;
 }
 
 .topColumn {
+	display: inline-block;
+	width: 49%;
 	text-align: center;
 	padding: auto 0;
+	vertical-align: middle;
+}
+
+.topColumn a {
+	text-decoration: none;
 }
 
 #rightTopImg {
@@ -146,7 +154,7 @@ header, main, footer {
 
 #threeColumn {
 	padding-bottom: 40px;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 footer div address a {
