@@ -75,52 +75,61 @@ h1, h2, h3, h4, h5 {
 	background: white;
 	height: 40px;
 	width: 100%;
-	padding: 0 20px;
 	height: 80px;
-	padding-top: 20px;
+	margin: 0 20%;
 }
 
 header div nav a {
 	text-decoration: none;
-	padding: 50px;
+	padding-right: 50px;
 	color: gray;
 }
 
 #nav {
 	display: inline-block;
-	width: 75%;
-	margin: auto;
+	width: 45%;
 }
 
 .logo	{
 	display: inline-block;
-	width: 18%;
+	width: 15%;
+	margin-top: 20px;
 }
 /* space for fixed nav bar */
 #top{
-	margin: 110px 5% 20px 5%;
+	margin: 110px 0 20px 0;
 	padding-bottom: 40px;
 	border-bottom: 2px solid black;
+}
+
+.topColumn h1 {
+	font-size: 5rem;
+}
+
+.button {
+	border: 2px solid	black;
+	width: 150px;
+	padding: 10px;
+	margin: 0 auto;
 }
 
 .twoColumn {
 	display: inline-block;
 	width: 49%;
 	border: 1px solid black;
-	height: 30%;
-	/* padding-bottom: 40px; */
 }
 
 .topColumn {
 	text-align: center;
+	padding: auto 0;
 }
 
 #rightTopImg {
 	height: 10%;
 }
 
-main, footer {
-	margin: 30px 10%
+header, main, footer {
+	margin: 40px 20%
 }
 .middle-img {
 	width: 100%
@@ -138,4 +147,15 @@ main, footer {
 #threeColumn {
 	padding-bottom: 40px;
 	border-bottom: 2px solid black;
+}
+
+footer div address a {
+	display: inline-block;
+	padding: 20px 0 0 0;
+}
+
+footer div p {
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
 }
