@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.navBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	background: white;
+	height: 40px;
+	width: 100%;
+	padding: 0 20px;
+	background: lightblue;
+	height: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#nav {
+	display: inline-block;
+	width: 75%;
+	margin: auto;
+}
+
+.logo	{
+	display: inline-block;
+	margin: 10px;
+	width: 18%;
+}
+/* space for fixed nav bar */
+#top{
+	margin-top: 100px;
+}
+
+.twoColumn {
+	display: inline-block
+}
