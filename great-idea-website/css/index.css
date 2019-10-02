@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,137 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+.navBar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	background: white;
+	height: 40px;
+	width: 100%;
+	height: 80px;
+	margin: 0 20%;
+}
+
+header div nav a {
+	text-decoration: none;
+	padding-right: 40px;
+	color: gray;
+}
+
+#nav {
+	display: inline-block;
+	width: 45%;
+}
+
+.logo	{
+	display: inline-block;
+	width: 15%;
+	margin-top: 20px;
+}
+/* space for fixed nav bar */
+#top{
+	margin: 110px 0 20px 0;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+.topColumn h1 {
+	font-size: 5em;
+}
+
+.button {
+	display: block;
+	border: 1px solid	black;
+	width: 150px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.twoColumn {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.topColumn {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	padding: auto 0;
+	vertical-align: middle;
+}
+
+.topColumn a {
+	text-decoration: none;
+}
+
+#rightTopImg {
+	height: 10%;
+}
+
+header, main, footer {
+	margin: 40px 20%
+}
+.middle-img {
+	width: 100%
+}
+
+#middle-img {
+	margin: 40px 0;
+}
+
+.threeColumn {
+	display: inline-block;
+	width: 33%;
+}
+
+#threeColumn {
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
+}
+
+footer div address a {
+	display: inline-block;
+	padding: 20px 0 0 0;
+}
+
+footer div p {
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100%;
+}
+
+#top	h1 {
+	text-align: center;
+}
+
+.form {
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+}
+
+form {
+	text-align: left;
+}
+
+.form_middle {
+	position: relative;
+}
+
+#message {
+	height: 40px;
+	width: 100%;
+}
+
+.message {
+	width: 100%;
+}
