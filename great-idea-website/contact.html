@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/css?family=Bitter&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -21,7 +21,7 @@
     <header>
       <div class="navBar">
         <nav id="nav">
-          <a href="#services">Services</a>
+          <a href="index.html">Services</a>
           <a href="#product">Product</a>
           <a href="#vision">Vision</a>
           <a href="#features">Features</a>
@@ -35,12 +35,19 @@
       </div>
     </header>
     <main>
-      <div id="threeColumn">
+      <div id="threeColumn" class="form_middle">
         <div class="twoColumn">
           <img id="mapImg" src="https://i.stack.imgur.com/bO1nP.jpg" alt="map">
         </div>
-        <div class="twoColumn">
+        <div class="twoColumn form">
           <h1>Please get in contact with use</h1>
+          <form action="#" method="post">
+            Name:<input required class="message" type="text" placeholder="First and Last name"/><br>
+            Email:<input required class="message" type="email" placeholder="Email Address"/><br>
+            Phone Number:<input required class="message" type="number" placeholder="(123) 123-1234"/><br>
+            Message:<input required id="message" type="text" placeholder="We are here to help"/><br>
+            <input type="button" value="Submit">
+          </form>
         </div>
       </div>
     </main>

@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5 {
 
 header div nav a {
 	text-decoration: none;
-	padding-right: 50px;
+	padding-right: 40px;
 	color: gray;
 }
 
@@ -168,7 +168,33 @@ footer div p {
 	margin-bottom: 20px;
 }
 
-#mapImg {
-	display: inline-block;
+img {
+	width: 100%;
+}
+
+#top	h1 {
+	text-align: center;
+}
+
+.form {
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+}
+
+form {
+	text-align: left;
+}
+
+.form_middle {
+	position: relative;
+}
+
+#message {
+	height: 40px;
+	width: 100%;
+}
+
+.message {
 	width: 100%;
 }
